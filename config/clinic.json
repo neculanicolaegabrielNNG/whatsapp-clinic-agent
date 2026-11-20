@@ -1,0 +1,58 @@
+{
+  "_comment": "SAMPLE DATA - edit freely. The agent only knows what is written in this file.",
+  "name": "Sunrise Medical Clinic",
+  "address": "12 Example Street, Bucharest, Romania",
+  "phone": "+40 21 000 0000",
+  "emergencyPhone": "112",
+  "timezone": "Europe/Bucharest",
+  "openingHours": {
+    "monday": { "open": "09:00", "close": "18:00" },
+    "tuesday": { "open": "09:00", "close": "18:00" },
+    "wednesday": { "open": "09:00", "close": "18:00" },
+    "thursday": { "open": "09:00", "close": "18:00" },
+    "friday": { "open": "09:00", "close": "18:00" },
+    "saturday": { "open": "09:00", "close": "13:00" },
+    "sunday": null
+  },
+  "closedDates": [],
+  "booking": {
+    "slotIntervalMinutes": 30,
+    "minLeadMinutes": 60,
+    "maxDaysAhead": 90
+  },
+  "services": [
+    {
+      "id": "general_consultation",
+      "name": "General consultation",
+      "durationMinutes": 30,
+      "price": 60,
+      "currency": "EUR",
+      "capacity": 1
+    },
+    {
+      "id": "cardiology",
+      "name": "Cardiology consultation",
+      "durationMinutes": 45,
+      "price": 90,
+      "currency": "EUR",
+      "capacity": 1
+    },
+    {
+      "id": "dermatology",
+      "name": "Dermatology consultation",
+      "durationMinutes": 30,
+      "price": 80,
+      "currency": "EUR",
+      "capacity": 1
+    },
+    {
+      "id": "lab_tests",
+      "name": "Lab tests (blood draw)",
+      "durationMinutes": 15,
+      "price": 25,
+      "currency": "EUR",
+      "capacity": 2
+    }
+  ],
+  "cancellationPolicy": "Appointments can be cancelled or rescheduled free of charge up to 24 hours before the start time. Later cancellations or no-shows may be charged 50% of the consultation price."
+}

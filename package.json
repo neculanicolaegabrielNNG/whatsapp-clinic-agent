@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-clinic-agent",
+  "version": "1.0.0",
+  "description": "Demo WhatsApp booking agent for a medical clinic (WhatsApp Cloud API + Claude tool use)",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "chat": "node scripts/chat.js",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
